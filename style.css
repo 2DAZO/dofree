@@ -1,15 +1,15 @@
-*{
-box-sizing: border-box;
-padding: 0;
-margin: 0;
-font-family: 'poppins', sans-serif;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
 }
 
-html{
-font-size: 62.5%;
+html {
+    font-size: 62.5%;
 }
 
-body{
+body {
     height: 100vh;
     align-items: center;
     background-image: url(./img/of-e-commerce-sales-online-shopping-digital-marketing-isometric-smart-phone-online-shopping-3d-render.jpg);
@@ -17,44 +17,44 @@ body{
     background-repeat: no-repeat;
 }
 
-a{
+a {
     font-size: 15px;
     text-decoration: none;
     color: white;
     padding: 10px 30px;
-    background-color: #FF7465;
+    background-color: #21db9d;
     border-radius: 20px;
     transition: .3s;
 }
 
-a:hover{
+a:hover {
     transform: translate(0, -2px);
     color: white;
     border-radius: 20px;
-background: #FF7465;
-box-shadow:  10px 10px 30px #bebebe,
-             -10px -10px 30px #ffffff;
+    background: #21db9d;
+    box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
 }
 
-span{
+span {
     margin-top: -5px;
     font-size: 20px;
     font-weight: 800;
 }
 
-.imagen{
+.imagen {
     width: 100%;
 }
 
-.logo{
+.logo {
     width: 50%;
+    margin-bottom: 30px;
 }
 
-h1{
+h1 {
     font-weight: 800;
 }
 
-h2{
+h2 {
     font-size: 22px;
     font-weight: 400;
 }
@@ -73,22 +73,21 @@ h2{
     border-bottom: 1px rgb(243, 90, 90) solid;
 }
 
-.cargando{
-    background-color: rgb(255, 255, 255); 
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    width: 100vw; 
-    height: 100vh; 
+.cargando {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     z-index: 100000;
-    display: flex;   
+    display: flex;
     justify-content: center;
     align-items: center;
     transition: all 3s;
 }
 
-.cargando img{
+.cargando img {
     transition: all 3s;
     height: 100px;
 }
-
